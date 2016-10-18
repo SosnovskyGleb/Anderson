@@ -1,0 +1,119 @@
+html,body {
+	color:#3b3b3b;
+	background: #fff;
+	margin: 0;
+	height: 100%;
+	width:100%;
+	padding: 0;
+	display: table;
+}
+
+h2,h3,p{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+a.button{
+	text-decoration: none;
+	position: relative;
+	left: -19px;
+	bottom: 6px;
+	color: #3b3b3b;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 1.35em;
+	margin-left:3%;
+	
+}
+
+.href{
+	display: block;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	height:100%;
+}
+#header {
+	height: 10%;
+	background: #597da3;
+	display: table-row;
+	
+}
+
+#workArea {
+	height:70%;
+}
+
+#craftingArea,#meals,#frige{
+	height: 400px;
+	background: #eee;
+}
+
+#frige {
+	width: 33%;
+	float: left;
+	margin-left:2%;
+	overflow-x: auto;
+	cursor: pointer;
+}
+
+#objects {
+		width: 100px; 
+		min-width:100px;
+		height: 100px;
+		float: left;
+		background: #c0f;
+		margin: 1% 3% 1% 3%;
+		
+}
+
+#meals {
+	width: 33%;
+	float: right;
+	margin-right:2%;
+	overflow-x: auto;
+}
+
+.items_recip {
+	width: 100px; 
+	min-width:100px;
+	height: 100px;
+	float: left;
+	background: black;
+	margin: 1% 3% 1% 3%;
+}
+
+#craftingArea {
+	margin: 6% 39% 3% 39%;
+	position: relative;
+	background-image: url(../img/stove.png);
+}
+.area {
+	width:100%;
+	height: 10%;
+	padding-top:4%;
+	float: left;
+}
+
+#footer {
+	height: 10%;
+	width:100%;
+	display: center;
+	color: #fff;
+	background: #000;
+	clear: both;
+}
+
+button {
+	margin: 0.2% 0% 0% 20%;
+	display: inline-block;
+	color: #de3131;
+	font-weight: 700;
+	text-decoration: none;
+	padding: .9em 9em;
+	outline: none;
+	border: 2px solid;
+	border-radius: 7px;
+	transition: 0.2s;
+} 
+
+button:hover { background: rgba(255,255,255,.2); }
+button:active { background: white; }

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home_task</title>
+	<link rel="stylesheet" href="css/style.css">
+	</head>
+<body>
+	<div id = 'header'>
+		<nav class = 'href'>
+			<h2>Приготовление блюд</h2>
+			<a href = "#win1" class="button" onClick='First()'>Инструкция</a>
+			<a href = "#win2" class="button" onClick='Second()'>Рецерты</a>
+		</nav>
+	</div>
+
+	<div id = 'workArea'>
+		<div id = 'frige'>
+			<h3>Холодильник</h3>
+			<div id = 'objects'>
+				<img src = 'img/1.jpg' alt = 'яблоко' title = 'Яблоко' ondragstart='onDrag(this, event)' />
+			</div>
+			<div id = 'objects'>
+				<img src = 'img/2.jpg' alt = 'киви' title = 'Киви' ondragstart='onDrag(this, event)' />
+			</div>
+			<div id = 'objects'>
+				<img src = 'img/3.jpg' alt = 'малина' title = 'Малина' ondragstart='onDrag(this, event)' />
+			</div>
+			<div id = 'objects'>
+				<img src = 'img/4.jpg' alt = 'молоко' title = 'Молоко' ondragstart='onDrag(this, event)' />
+			</div>
+			<div id = 'objects'>
+				<img src = 'img/5.jpg' alt = 'яйца' title = 'Яйца' ondragstart='onDrag(this, event)' />
+			</div>
+			<div id = 'objects'>
+				<img src = 'img/6.jpg' alt = 'мясо' title = 'Мясо' ondragstart='onDrag(this, event)' />
+			</div>
+			<div id = 'objects'>
+				<img src = 'img/7.jpg' alt = 'специи' title = 'Специи' ondragstart='onDrag(this, event)' />
+			</div>
+			<div id = 'objects'>
+				<img src = 'img/8.jpg' alt = 'перец' title = 'Перец' ondragstart='onDrag(this, event)' />
+			</div>
+			<div id = 'objects'>
+				<img src = 'img/9.jpg' alt = 'картофель' title = 'Картофель' ondragstart='onDrag(this, event)' />
+			</div>
+			<div id = 'objects'>
+				<img src = 'img/10.jpg' alt = 'морковь' title = 'Морковь' ondragstart='onDrag(this, event)' />
+			</div>
+			<div id = 'objects'>
+				<img src = 'img/11.jpg' alt = 'капуста' title = 'Капуста' ondragstart='onDrag(this, event)' />
+			</div>
+			<div id = 'objects'>
+				<img src = 'img/12.jpg' alt = 'кабачок' title = 'Кабачок' ondragstart='onDrag(this, event)' />
+			</div>
+			<div id = 'objects'>
+				<img src = 'img/13.jpg' alt = 'помидоры' title = 'Помидоры' ondragstart='onDrag(this, event)' />
+			</div>
+			<div id = 'objects'>
+				<img src = 'img/14.jpg' alt = 'лук' title = 'Лук' ondragstart='onDrag(this, event)' />
+			</div>
+		</div>	
+	
+	<div id = 'meals'>
+		<h3>Готовые блюда</h3>
+		<div id ='cocktail' class = 'items_recip'>
+		</div>
+		<div id= 'omelet' class = 'items_recip'>
+		</div>
+		<div id='meatInBatter' class = 'items_recip'>
+		</div>
+		<div id='damlama' class = 'items_recip'>
+		</div>
+		<div class = 'items_recip'></div>
+		<div class = 'items_recip'></div>
+		<div class = 'items_recip'></div>
+		<div class = 'items_recip'></div>
+		<div class = 'items_recip'></div>
+		<div class = 'items_recip'></div>
+		<div class = 'items_recip'></div>
+		<div class = 'items_recip'></div>
+	</div>
+
+	
+	
+		<div id = 'craftingArea' ondrop = 'onDrop(this, event)' ondragenter = 'cancel(event)' ondragover = 'cancel(event)'>
+		</div>
+	
+
+		
+	<div id = 'footer'>
+		<button id = 'stoveClean'>Очистка плиты</button>
+		<button id = 'tableClean'>Очистка стола</button>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
